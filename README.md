@@ -22,7 +22,7 @@
 - Open two terminals and run `python3 consumer.py` in each terminal
 - Open another terminal and run `python3 producer.py`
 ## Result
-The messages are processed on different consumers (partitions) based on the partitioning login in `producer.py`  (odd and even lines). 
+The messages are processed on different consumers (partitions) based on the partitioning logic in `producer.py`  (odd and even lines). 
 >  Even lines partition 0
 > Odd lines - partition 1
 
